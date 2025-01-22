@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}   
+nav a:hover {
+    text-decoration: underline;
+}
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+    background-image:url('image/italian\ pizza.jpg') ;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+    margin: 10px 4px;
+}
+.product img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+.price {
+    color: #ff6347;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.contact-section {
+    padding: 20px;
+    background-color:  #f1f1f1;
+    text-align: center;
+}
+.contact-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.contact-section p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.contact-section a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about-section h2 {
+    font-size: 36px;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+.about-section p {
+    font-size: 18px;
+    line-height: 1.8; 
+    color: #555;
+}
